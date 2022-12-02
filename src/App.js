@@ -1,7 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './Home';
-import Dashboard from './Dashboard'
 import './App.css';
 
 
@@ -10,7 +9,7 @@ function App() {
     // wrap everything in your router
     <Router> 
       <div className="App">
-       <Dashboard />
+       <Home />
 
 
       </div>
