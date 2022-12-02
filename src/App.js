@@ -8,10 +8,14 @@ function App() {
   return (
     // wrap everything in your router
     <Router> 
+      <Navigation />      
       <div className="App">
-       <Home />
-
-
+        <Switch>
+          <Route exact path="/" component={Home} /> 
+          <Route exact path="/creations" component={Creations} />
+          <Route exact path="/creations/new" component={CreationForm} />
+          <Route path="/creations/:id" component={ExquisiteHorse} /> 
+        </Switch>
       </div>
     </Router>
   );

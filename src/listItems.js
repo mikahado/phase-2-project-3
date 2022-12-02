@@ -7,32 +7,42 @@ import DashboardIcon from '@mui/icons-material/Dashboard';
 import PeopleIcon from '@mui/icons-material/People';
 import LayersIcon from '@mui/icons-material/Layers';
 import AssignmentIcon from '@mui/icons-material/Assignment';
+import AddCircleOutlineRoundedIcon from '@mui/icons-material/AddCircleOutlineRounded';
+import NotesRoundedIcon from '@mui/icons-material/NotesRounded';
+import LightbulbRoundedIcon from '@mui/icons-material/LightbulbRounded';
+import ImportContactsRoundedIcon from '@mui/icons-material/ImportContactsRounded';
+import ModelTrainingRoundedIcon from '@mui/icons-material/ModelTrainingRounded';
+import EmojiObjectsRoundedIcon from '@mui/icons-material/EmojiObjectsRounded';
+import TripOriginRoundedIcon from '@mui/icons-material/TripOriginRounded';
+import HelpCenterRoundedIcon from '@mui/icons-material/HelpCenterRounded';
+import AddBoxRoundedIcon from '@mui/icons-material/AddBoxRounded';
+import WindowRoundedIcon from '@mui/icons-material/WindowRounded';
 
 export const mainListItems = (
   <React.Fragment>
     <ListItemButton>
       <ListItemIcon>
-        <DashboardIcon />
+        <WindowRoundedIcon />
       </ListItemIcon>
       <ListItemText primary="Home" />
     </ListItemButton>
     <ListItemButton>
       <ListItemIcon>
-        <LayersIcon />
+        < AssignmentIcon/>
       </ListItemIcon>
       <ListItemText primary="Creations" />
     </ListItemButton>
     <ListItemButton>
       <ListItemIcon>
-        <PeopleIcon />
+        <AddBoxRoundedIcon />
       </ListItemIcon>
-      <ListItemText primary="Create New" />
+      <ListItemText primary="New" />
     </ListItemButton>
     <ListItemButton>
       <ListItemIcon>
-        <LayersIcon />
+        <HelpCenterRoundedIcon />
       </ListItemIcon>
-      <ListItemText primary="About CoLab" />
+      <ListItemText primary="About" />
     </ListItemButton>
   </React.Fragment>
 );
